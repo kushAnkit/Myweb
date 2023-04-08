@@ -1,70 +1,110 @@
-body{
-margin: 0;
-text-align: center;
-font-family: bradley hand, cursive;
+body {
+  margin: 0;
+  text-align: center;
+  font-family: bradley hand, cursive;
 
 }
-.profilepic{
-  background-color:rgb(59, 39, 39);
+
+.profilepic {
+  background-color: rgb(59, 39, 39);
   width: 20%;
-border-radius: 100%;
+  border-radius: 100%;
 
 
 
 }
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
 
-.mountain{
-display: block;
-position: relative;
-left: 380px;
+}
+
+.mountain {
+  display: block;
+  position: relative;
+  left: 380px;
 }
 
 
 
-.top-container{
-background-color: #79c2d0;
-padding: 100px;
+.top-container {
+  background-color: #bbe4e9;
+  padding: 100px;
 }
 
 
 
-h1{
-    margin-top: 0px;
-    margin-bottom: 0%;
-}
-
-
-
-
- p{
+h1 {
   margin-top: 0px;
-margin-left: 0px;
-margin-right: 0px;
+  margin-bottom: 0%;
+  font-size: 5rem;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h2 {
+
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #11999E;
+
+}
+
+.best {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
 }
 
 
 
-.top-cloud{
-position: relative;
-/* right: 400px;
+.top-cloud {
+  position: relative;
+  /* right: 400px;
 bottom: ; */
-left: 200px;
+  left: 200px;
 }
 
 
 
-.bottom-cloud{
-position: relative;
-right: 180px;
+.bottom-cloud {
+  position: relative;
+  right: 180px;
 }
 
+a {
+  color: #11999E;
+}
+
+.webimg {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px ;
 
 
 
+}
 
-
-
-
-
-
-
+.web3img {
+  border-radius: 50%;
+  background-color: purple;
+  width: 25%;
+  float: right;
+  /* margin-right: 100px; */
+}
+div{
+  margin-bottom: 50px;
+}
